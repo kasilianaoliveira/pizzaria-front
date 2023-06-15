@@ -10,7 +10,7 @@
   align-items: center;
 
   .content{
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   
   h1{
@@ -18,15 +18,19 @@
   }
 
   form {
-    margin-top: 30px;
-    // width: 830px;
+    margin-top: 1.875rem;
+    width: 37.5rem;
     display: flex;
     flex-direction: column;
 
-    button{
-      width: 830px;
-    }
   }
-  // justify-content: space-between;
+
+@media (max-width: 620px) {
+  form {
+    width: 100%;
+
+  }
+}
 
 }
+
