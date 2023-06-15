@@ -1,0 +1,57 @@
+.container {
+  background: #160401;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../public/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.login {
+
+  h1{
+    color: var(--white);
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: .9375rem;
+
+  width: 37.5rem;
+  padding: 1rem 1.5rem;
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.account {
+  color: var(--white);
+  cursor: pointer;
+
+  span{
+    color: var(--orange-100);
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+
+    img {
+      width: 12.5rem;
+    }
+
+  }
+}
