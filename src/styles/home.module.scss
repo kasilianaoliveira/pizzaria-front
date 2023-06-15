@@ -16,9 +16,10 @@
 
 .login {
 
-  h1{
+  h1 {
     color: var(--white);
   }
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +27,7 @@
 
   gap: .9375rem;
 
-  width: 37.5rem;
+  // width: 37.5rem;
   padding: 1rem 1.5rem;
 
   form {
@@ -40,7 +41,7 @@
   color: var(--white);
   cursor: pointer;
 
-  span{
+  span {
     color: var(--orange-100);
     font-weight: 700;
   }
